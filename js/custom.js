@@ -8,7 +8,7 @@ jQuery(document).ready(function () {
         jQuery('#map').gMap({
             zoom: 16, //Integer: Level of zoom in to the map
             markers: [{
-                address: "Calle Hamburgo, Las Palmas, Spanje", //Address of the company
+                address: "125-10 Jahamun-ro, Jongno-gu, Seoul", //Address of the company
                 html: "<h4>Our hotel</h4><p>This is our hotel</p>", //Quicktip
                 popup: false, //Boolean	
                 scrollwheel: false, //Boolean
