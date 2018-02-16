@@ -2083,8 +2083,8 @@ border: 1px solid;
 /* Gmap */
 #map {
 	width: 100%;
-	height: 300px;
-	overflow: visible !important;
+	height: 350px;
+	overflow: invisible !important;
 	border: 1px solid;
 	margin-top: -1px;
 }

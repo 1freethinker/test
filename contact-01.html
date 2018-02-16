@@ -125,7 +125,21 @@
 
 <!-- GMap -->
 <div id="map">
-  <p>This will be replaced with the Google Map.</p>
+  <script>
+    $('.map')
+      .gmap3({
+        center:[37.587204, 126.968882],
+        zoom:4
+      })
+      .marker([
+        {position:[37.587204, 126.968882]},
+        {address:"125-10 Jahamun-ro, Cheongun-dong, Jongno-gu, Seoul"},
+        {address:"125-10 Jahamun-ro, Cheongun-dong, Jongno-gu, Seoul", icon: "http://maps.google.com/mapfiles/marker_grey.png"}
+      ])
+      .on('click', function (marker) {
+        marker.setIcon('http://maps.google.com/mapfiles/marker_green.png');
+      });
+  </script>
 </div>
 <div class="container">
   <div class="row"> 
