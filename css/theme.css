@@ -2091,3 +2091,7 @@ border: 1px solid;
 #map img {
 	max-width: none !important;
 }
+.hangingindent {
+  padding-left: 43px ;
+  text-indent: -43px ;
+}
